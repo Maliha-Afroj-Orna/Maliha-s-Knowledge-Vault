@@ -109,8 +109,7 @@ body {
     margin-bottom: 120px;
 }
 .hero-container .vault-btn:hover {
-    background-color: #FFFFFF;
-    color: #30B868;
+    background-color: #469165c3;
 }
 .hero-container .vault-btn1 {
     display: flex;
@@ -221,3 +220,41 @@ body {
 }
 
 /* think section styles */
+.think-parent {
+    text-align: center;
+}
+.think-container {
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 120px;
+}
+.think-container h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.think-container p {
+    line-height: 24px;
+    max-width: 615px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.think-container button {
+    box-shadow: 8px 8px 8px 0px lightgray;
+    margin-bottom: 16px;
+}
+.think-container button .think-btn1 {
+    display: flex;
+    gap: 10px;
+}
+.think-container ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.think-container ul li:nth-child(1) {
+    list-style: none;
+}
+
+/* footer section styles */
