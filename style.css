@@ -29,6 +29,7 @@ body {
 
 
 
+
 /* main styles */
 /* nav section styles */
 .navbar-parent {
@@ -53,3 +54,70 @@ body {
     font-weight: 500;
     color: #000000;
 }
+
+/* hero section styles */
+.hero-parent {
+    background-image: linear-gradient(rgba(0, 25, 49, 0.8)), url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 340px;
+    margin-bottom: 80px;
+}
+.hero-container {
+    text-align: center;
+}
+.hero-container .early-access-btn {
+    padding: 8px 12px;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 2px;
+    margin-bottom: 16px;
+}
+.hero-container .early-access-btn:hover {
+    background-color: #dfded9;
+}
+.hero-container h2 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+.hero-container h2 span {
+    color: #30B868;
+}
+.hero-container p {
+    font-size: 18px;
+    line-height: 10px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.hero-container .vault-btn:hover {
+    background-color: #FFFFFF;
+    color: #30B868;
+}
+.hero-container .vault-btn1 {
+    display: flex;
+    gap: 10;
+}
+.hero-container .vault-btn1 img {
+    padding-left: 10px;
+}
+.hero-container .vault-btn2 i {
+    padding-right: 10px;
+}
+.hero-container .vault-btn2 {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+.hero-container .vault-btn2:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+
+/* notes section styles */
